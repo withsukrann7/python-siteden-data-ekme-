@@ -1,4 +1,3 @@
-
 import requests
 from bs4 import BeautifulSoup
 
@@ -22,18 +21,3 @@ with open('telefon_fiyatlari.txt', 'w', encoding='utf-8') as f:
         print(f"ürün fiyatı: {converted_price}")
     else:
         print("fiyat bilgisi mevcut değildir...")
-    
-
-
-
-
-
-
-
-
-
-        
-
-
-
-
